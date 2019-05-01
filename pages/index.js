@@ -3,10 +3,11 @@ import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
 import NextSeo from 'next-seo';
 
+const compName = 'New American Funding'
 const Index = (props) => (
     <Layout>
         <NextSeo config={{
-            title: 'Homepage',
+            title: `Homepage | ${compName}`,
             description: 'This is our test description for our homepage.',
         }} />
         <h1>Batman TV Shows</h1>

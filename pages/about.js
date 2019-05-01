@@ -1,11 +1,12 @@
 import Layout from '../components/Layout'
 import NextSeo from 'next-seo';
 
+const compName = 'New American Funding'
 export default function About() {
     return (
         <Layout>
             <NextSeo config={{
-                title: 'About Us',
+                title: `About Us | ${compName}`,
                 description: 'This is our test description for our about page.',
             }} />
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam facilisis lorem vitae malesuada pharetra. Fusce ac turpis risus. In vitae lorem non enim auctor posuere. Quisque quis massa id ante sagittis elementum. Nam volutpat ex dui, et tincidunt dui porta iaculis. Phasellus tristique sem a convallis lobortis. Cras bibendum, urna vitae fermentum volutpat, ex risus luctus elit, non porttitor ante diam vitae ligula. Nullam porta est enim, sed suscipit felis lobortis egestas. Aenean non mauris quis felis bibendum blandit molestie nec magna. Duis molestie bibendum eros eget fringilla. Pellentesque quis facilisis est, ac efficitur magna. Vivamus condimentum lacus nunc, quis varius mi mollis tempor. Cras dolor mauris, facilisis vitae porttitor vel, imperdiet id tortor. Nunc ligula risus, varius vitae arcu id, tempus placerat turpis.</p>

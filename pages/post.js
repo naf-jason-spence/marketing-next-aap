@@ -2,10 +2,11 @@ import Layout from '../components/Layout'
 import fetch from 'isomorphic-unfetch'
 import NextSeo from 'next-seo';
 
+const compName = 'New American Funding'
 const Post = props => (
   <Layout>
     <NextSeo config={{
-        title: `${props.show.name}`,
+        title: `${props.show.name} | ${compName}`,
         description: `${props.show.summary.replace(/<[/]?p>/g, '')}`,
     }} />
     <h1>{props.show.name}</h1>
