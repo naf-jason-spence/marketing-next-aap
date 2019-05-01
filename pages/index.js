@@ -1,9 +1,14 @@
 import Layout from '../components/Layout'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch'
+import NextSeo from 'next-seo';
 
 const Index = (props) => (
     <Layout>
+        <NextSeo config={{
+            title: 'Homepage',
+            description: 'This is our test description for our homepage.',
+        }} />
         <h1>Batman TV Shows</h1>
         <ul>
             {props.shows.map(show => (

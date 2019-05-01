@@ -1,8 +1,13 @@
 import Layout from '../components/Layout'
 import fetch from 'isomorphic-unfetch'
+import NextSeo from 'next-seo';
 
 const Post = props => (
   <Layout>
+    <NextSeo config={{
+        title: `${props.show.name}`,
+        description: `${props.show.summary.replace(/<[/]?p>/g, '')}`,
+    }} />
     <h1>{props.show.name}</h1>
     <p>{props.show.summary.replace(/<[/]?p>/g, '')}</p>
     <img src={props.show.image.medium} />

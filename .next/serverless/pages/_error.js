@@ -3843,7 +3843,7 @@ module.exports = __webpack_require__("UDep");
 /***/ "LZ9C":
 /***/ (function(module) {
 
-module.exports = {"devFiles":[],"pages":{"/":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"],"/_app":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"],"/_error":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"],"/about":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"],"/index":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"],"/post":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.6437f4ab58952b6e1962.js","static/runtime/main-048503fd5cefe7ea1921.js"]}};
+module.exports = {"devFiles":[],"pages":{"/":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"],"/_app":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"],"/_error":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"],"/about":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"],"/index":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"],"/post":["static/runtime/webpack-a79426b5e11f0ba5879d.js","static/chunks/commons.2ec9d82cab67e3739fe4.js","static/runtime/main-8265ea5e4f59eccb31ae.js"]}};
 
 /***/ }),
 
@@ -6677,7 +6677,7 @@ var private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_4___n
         Document: (next_dist_pages_document__WEBPACK_IMPORTED_MODULE_5___default()),
         buildManifest: private_dot_next_build_manifest_json__WEBPACK_IMPORTED_MODULE_3__,
         reactLoadableManifest: private_dot_next_react_loadable_manifest_json__WEBPACK_IMPORTED_MODULE_4__,
-        buildId: "aVbvY5GTrsdlMhpegnMK1",
+        buildId: "HMCdqUrq2-sqf2ktz9nB8",
         dynamicBuildId: false,
         assetPrefix: "",
         ampBindInitData: false
